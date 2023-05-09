@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.pupu.pu1611.app-mergeDebugResources-60:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/nguyentuan/.gradle/caches/transforms-3/e2be6c5495a727b53141a8928c63c238/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

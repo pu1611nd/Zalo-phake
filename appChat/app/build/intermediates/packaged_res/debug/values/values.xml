@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="background">#fafafa</color>
+    <color name="colorMeetingInvitationEnd">#8a1aaa</color>
+    <color name="colorMeetingInvitationStart">#4004bb</color>
+    <color name="divider">#bdbdbd</color>
+    <color name="error">#b00020</color>
+    <color name="hintText">#bdbdbd</color>
+    <color name="icon_background">#20ffffff</color>
+    <color name="input_background">#ececec</color>
+    <color name="primary">#03A9F4</color>
+    <color name="primaryText">#212121</color>
+    <color name="primary_dark">#2196F3</color>
+    <color name="received_message_background">#090d16</color>
+    <color name="secondaryText">#757575</color>
+    <color name="white">#ffffff</color>
+    <string name="_123456789">123456789</string>
+    <string name="_84">+84</string>
+    <string name="app_name">My Application</string>
+    <string name="default_web_client_id" translatable="false">839353102178-afhi753anc5lmcot6c7btglddt9d1m9n.apps.googleusercontent.com</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the OTP ?</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_the_otp_send_to">Enter the OTP send to</string>
+    <string name="gcm_defaultSenderId" translatable="false">839353102178</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="google_api_key" translatable="false">AIzaSyDLwgWdIFmrCpXcv8cH_mnlfaAHG20co4o</string>
+    <string name="google_app_id" translatable="false">1:839353102178:android:4935c15939c02e024a863b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDLwgWdIFmrCpXcv8cH_mnlfaAHG20co4o</string>
+    <string name="google_storage_bucket" translatable="false">my-appchat-6e04e.appspot.com</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="project_id" translatable="false">my-appchat-6e04e</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="verify">Verify</string>
+    <string name="we_will_send_an_one_time_password_on_this_mobile_number">We will send an One Time Password on this mobile number</string>
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/primary_dark</item>
+    </style>
+</resources>
