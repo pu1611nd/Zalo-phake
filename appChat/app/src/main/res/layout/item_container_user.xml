@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imageProfile"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:background="@drawable/background_icon"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="@dimen/_8sdp"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"/>
+        <TextView
+            android:id="@+id/textName"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:text="Nguyen Tuan"
+            android:textSize="@dimen/_20sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/imageviewCall"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_round_call_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="#2196F3" />
+        <ImageView
+            android:id="@+id/imageViewVideoCall"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_round_videocam_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="#2196F3"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:background="@color/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</androidx.cardview.widget.CardView>

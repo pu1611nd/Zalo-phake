@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "839353102178",
+    "project_id": "my-appchat-6e04e",
+    "storage_bucket": "my-appchat-6e04e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839353102178:android:4935c15939c02e024a863b",
+        "android_client_info": {
+          "package_name": "com.pupu.pu1611"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839353102178-afhi753anc5lmcot6c7btglddt9d1m9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLwgWdIFmrCpXcv8cH_mnlfaAHG20co4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839353102178-afhi753anc5lmcot6c7btglddt9d1m9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
